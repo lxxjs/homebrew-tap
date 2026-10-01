@@ -1,10 +1,10 @@
 # Template for Formula/kakaowork.rb in lxxjs/homebrew-tap. scripts/release.sh fills in
-# https://github.com/lxxjs/kakaowork/releases/download/v0.1.2/lxxjs-kakaowork-0.1.2.tgz and ea5a4d97a77d6d7a5a01666bde0d2a94269254838df5ac3711b80651e8378817 and pushes it; edit this file, not the one in the tap.
+# https://github.com/lxxjs/kakaowork/releases/download/v0.1.3/lxxjs-kakaowork-0.1.3.tgz and 9d471021504d2948a965522c8ef5eeb5de3ebd4382c21c097f8dfd22d24bc7f1 and pushes it; edit this file, not the one in the tap.
 class Kakaowork < Formula
   desc "KakaoTalk for macOS in your terminal, with a Claude Code-style UI"
   homepage "https://github.com/lxxjs/kakaowork"
-  url "https://github.com/lxxjs/kakaowork/releases/download/v0.1.2/lxxjs-kakaowork-0.1.2.tgz"
-  sha256 "ea5a4d97a77d6d7a5a01666bde0d2a94269254838df5ac3711b80651e8378817"
+  url "https://github.com/lxxjs/kakaowork/releases/download/v0.1.3/lxxjs-kakaowork-0.1.3.tgz"
+  sha256 "9d471021504d2948a965522c8ef5eeb5de3ebd4382c21c097f8dfd22d24bc7f1"
   license "MIT"
 
   depends_on :macos
